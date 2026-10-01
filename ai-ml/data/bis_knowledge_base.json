@@ -1,5 +1,29 @@
 [
   {
+    "product": "Pressure Cooker",
+    "aliases": [
+      "pressure cooker",
+      "pressure cookers",
+      "stovetop pressure cooker",
+      "aluminium pressure cooker"
+    ],
+    "standard_number": "IS 2347",
+    "standard_title": "Aluminium Alloy and Stainless Steel Pressure Cookers",
+    "description": "Indian Standard covering requirements and tests for pressure cookers.",
+    "certification_status": "BIS certification applicable",
+    "testing_requirements": [
+      "Pressure resistance test",
+      "Leakage test",
+      "Safety valve test",
+      "Lid locking and safety mechanism test",
+      "Material and construction checks"
+    ],
+    "laboratory": "BIS-recognized laboratory applicable to the required product tests",
+    "source": "Bureau of Indian Standards",
+    "source_url": "https://www.bis.gov.in/",
+    "last_verified": "2026-10-01"
+  },
+  {
     "product": "Packaged Drinking Water",
     "aliases": [
       "bottled drinking water",
@@ -11,6 +35,12 @@
     "standard_title": "Packaged Drinking Water (Other than Packaged Natural Mineral Water) - Specification (Third Revision)",
     "description": "Indian Standard for packaged drinking water other than packaged natural mineral water.",
     "certification_status": "BIS certification applicable",
+    "testing_requirements": [
+      "Physical and chemical quality testing",
+      "Microbiological testing",
+      "Contaminant and safety parameter testing"
+    ],
+    "laboratory": "BIS-recognized laboratory applicable to the required tests",
     "source": "Bureau of Indian Standards",
     "source_url": "https://www.services.bis.gov.in/tmp/tbl5_2024-11-11-11-31.pdf",
     "last_verified": "2026-10-01"
@@ -28,6 +58,13 @@
     "standard_title": "Polyvinyl Chloride Insulated Unsheathed and Sheathed Cables/Cords with Rigid and Flexible Conductor for Rated Voltages up to and including 1100 V (Fourth Revision)",
     "description": "Indian Standard covering PVC insulated unsheathed and sheathed cables and cords with rigid and flexible conductors.",
     "certification_status": "Mandatory Certification",
+    "testing_requirements": [
+      "Electrical resistance testing",
+      "Insulation testing",
+      "Voltage withstand testing",
+      "Dimensional and construction checks"
+    ],
+    "laboratory": "BIS-recognized laboratory applicable to the required tests",
     "source": "Bureau of Indian Standards",
     "source_url": "https://services.bis.gov.in/php/BIS_2.0/bisconnect/ISL/is_details?IDS=MTM4Mjk%3D",
     "last_verified": "2026-10-01"
@@ -45,6 +82,13 @@
     "standard_title": "Protective Helmets for Motorcycle Riders - Specification",
     "description": "Indian Standard specifying requirements and tests for protective helmets intended for motorcycle riders.",
     "certification_status": "Mandatory Certification",
+    "testing_requirements": [
+      "Impact absorption test",
+      "Penetration test",
+      "Retention system test",
+      "Field of vision and construction checks"
+    ],
+    "laboratory": "BIS-recognized laboratory applicable to the required tests",
     "source": "Bureau of Indian Standards",
     "source_url": "https://www.bis.gov.in/is-4151-2015/?lang=en",
     "last_verified": "2026-10-01"
@@ -63,6 +107,14 @@
     "standard_title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement - Specification (Fourth Revision)",
     "description": "Indian Standard for high strength deformed steel bars and wires used for concrete reinforcement.",
     "certification_status": "Mandatory Certification",
+    "testing_requirements": [
+      "Tensile strength test",
+      "Yield strength test",
+      "Elongation test",
+      "Bend and rebend tests",
+      "Dimensional checks"
+    ],
+    "laboratory": "BIS-recognized laboratory applicable to the required tests",
     "source": "Bureau of Indian Standards",
     "source_url": "https://www.services.bis.gov.in/tmp/PM_IS_1786_08052019.pdf",
     "last_verified": "2026-10-01"
@@ -81,6 +133,12 @@
     "standard_title": "Audio/Video, Information and Communication Technology Equipment - Part 1 Safety Requirements",
     "description": "Safety standard applicable to laptop, notebook and tablet product categories listed under the BIS Compulsory Registration Scheme.",
     "certification_status": "Compulsory Registration Scheme",
+    "testing_requirements": [
+      "Electrical safety testing",
+      "Protection against electric shock",
+      "Temperature and abnormal operation checks"
+    ],
+    "laboratory": "BIS-recognized laboratory applicable to the required tests",
     "source": "Bureau of Indian Standards - Scheme II",
     "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/scheme-ii-registration-scheme/?lang=en",
     "last_verified": "2026-10-01"
@@ -100,6 +158,12 @@
     "standard_title": "Audio/Video, Information and Communication Technology Equipment - Part 1 Safety Requirements",
     "description": "Safety standard applicable to television product categories listed under the BIS Compulsory Registration Scheme.",
     "certification_status": "Compulsory Registration Scheme",
+    "testing_requirements": [
+      "Electrical safety testing",
+      "Protection against electric shock",
+      "Temperature and abnormal operation checks"
+    ],
+    "laboratory": "BIS-recognized laboratory applicable to the required tests",
     "source": "Bureau of Indian Standards - Scheme II",
     "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/scheme-ii-registration-scheme/?lang=en",
     "last_verified": "2026-10-01"
@@ -116,6 +180,13 @@
     "standard_title": "Safety of Household and Similar Electrical Appliances - Part 2 Particular Requirements - Section 25 Microwave Ovens",
     "description": "Safety standard for microwave ovens listed under the BIS Compulsory Registration Scheme.",
     "certification_status": "Compulsory Registration Scheme",
+    "testing_requirements": [
+      "Electrical safety testing",
+      "Microwave radiation leakage testing",
+      "Abnormal operation testing",
+      "Temperature and heating-related safety checks"
+    ],
+    "laboratory": "BIS-recognized laboratory applicable to the required tests",
     "source": "Bureau of Indian Standards - Scheme II",
     "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/scheme-ii-registration-scheme/?lang=en",
     "last_verified": "2026-10-01"

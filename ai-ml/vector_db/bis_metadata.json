@@ -1,0 +1,123 @@
+[
+  {
+    "product": "Packaged Drinking Water",
+    "aliases": [
+      "bottled drinking water",
+      "packaged water",
+      "drinking water bottle",
+      "bottled water"
+    ],
+    "standard_number": "IS 14543:2024",
+    "standard_title": "Packaged Drinking Water (Other than Packaged Natural Mineral Water) - Specification (Third Revision)",
+    "description": "Indian Standard for packaged drinking water other than packaged natural mineral water.",
+    "certification_status": "BIS certification applicable",
+    "source": "Bureau of Indian Standards",
+    "source_url": "https://www.services.bis.gov.in/tmp/tbl5_2024-11-11-11-31.pdf",
+    "last_verified": "2026-10-01"
+  },
+  {
+    "product": "PVC Insulated Electric Cables",
+    "aliases": [
+      "PVC electrical wire",
+      "electric cable",
+      "PVC insulated wire",
+      "house wiring cable",
+      "electrical wiring"
+    ],
+    "standard_number": "IS 694:2010",
+    "standard_title": "Polyvinyl Chloride Insulated Unsheathed and Sheathed Cables/Cords with Rigid and Flexible Conductor for Rated Voltages up to and including 1100 V (Fourth Revision)",
+    "description": "Indian Standard covering PVC insulated unsheathed and sheathed cables and cords with rigid and flexible conductors.",
+    "certification_status": "Mandatory Certification",
+    "source": "Bureau of Indian Standards",
+    "source_url": "https://services.bis.gov.in/php/BIS_2.0/bisconnect/ISL/is_details?IDS=MTM4Mjk%3D",
+    "last_verified": "2026-10-01"
+  },
+  {
+    "product": "Protective Helmet for Motorcycle Riders",
+    "aliases": [
+      "motorcycle helmet",
+      "bike helmet",
+      "two wheeler helmet",
+      "rider helmet",
+      "motorbike helmet"
+    ],
+    "standard_number": "IS 4151:2015",
+    "standard_title": "Protective Helmets for Motorcycle Riders - Specification",
+    "description": "Indian Standard specifying requirements and tests for protective helmets intended for motorcycle riders.",
+    "certification_status": "Mandatory Certification",
+    "source": "Bureau of Indian Standards",
+    "source_url": "https://www.bis.gov.in/is-4151-2015/?lang=en",
+    "last_verified": "2026-10-01"
+  },
+  {
+    "product": "High Strength Deformed Steel Bars and Wires",
+    "aliases": [
+      "TMT bar",
+      "TMT steel",
+      "reinforcement bar",
+      "steel reinforcement",
+      "rebar",
+      "construction steel bar"
+    ],
+    "standard_number": "IS 1786:2008",
+    "standard_title": "High Strength Deformed Steel Bars and Wires for Concrete Reinforcement - Specification (Fourth Revision)",
+    "description": "Indian Standard for high strength deformed steel bars and wires used for concrete reinforcement.",
+    "certification_status": "Mandatory Certification",
+    "source": "Bureau of Indian Standards",
+    "source_url": "https://www.services.bis.gov.in/tmp/PM_IS_1786_08052019.pdf",
+    "last_verified": "2026-10-01"
+  },
+  {
+    "product": "Laptop Notebook and Tablet",
+    "aliases": [
+      "laptop",
+      "gaming laptop",
+      "notebook computer",
+      "tablet",
+      "tablet computer",
+      "portable computer"
+    ],
+    "standard_number": "IS/IEC 62368: Part 1: 2023",
+    "standard_title": "Audio/Video, Information and Communication Technology Equipment - Part 1 Safety Requirements",
+    "description": "Safety standard applicable to laptop, notebook and tablet product categories listed under the BIS Compulsory Registration Scheme.",
+    "certification_status": "Compulsory Registration Scheme",
+    "source": "Bureau of Indian Standards - Scheme II",
+    "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/scheme-ii-registration-scheme/?lang=en",
+    "last_verified": "2026-10-01"
+  },
+  {
+    "product": "Television",
+    "aliases": [
+      "TV",
+      "LED television",
+      "LCD television",
+      "LED TV",
+      "LCD TV",
+      "smart television",
+      "smart TV"
+    ],
+    "standard_number": "IS/IEC 62368: Part 1: 2023",
+    "standard_title": "Audio/Video, Information and Communication Technology Equipment - Part 1 Safety Requirements",
+    "description": "Safety standard applicable to television product categories listed under the BIS Compulsory Registration Scheme.",
+    "certification_status": "Compulsory Registration Scheme",
+    "source": "Bureau of Indian Standards - Scheme II",
+    "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/scheme-ii-registration-scheme/?lang=en",
+    "last_verified": "2026-10-01"
+  },
+  {
+    "product": "Microwave Oven",
+    "aliases": [
+      "microwave",
+      "microwave oven",
+      "electric microwave",
+      "kitchen microwave"
+    ],
+    "standard_number": "IS 302-2-25",
+    "standard_title": "Safety of Household and Similar Electrical Appliances - Part 2 Particular Requirements - Section 25 Microwave Ovens",
+    "description": "Safety standard for microwave ovens listed under the BIS Compulsory Registration Scheme.",
+    "certification_status": "Compulsory Registration Scheme",
+    "source": "Bureau of Indian Standards - Scheme II",
+    "source_url": "https://www.bis.gov.in/product-certification/products-under-compulsory-certification/scheme-ii-registration-scheme/?lang=en",
+    "last_verified": "2026-10-01"
+  }
+]

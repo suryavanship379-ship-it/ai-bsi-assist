@@ -1,0 +1,50 @@
+[
+  {
+    "query": "I manufacture bottled drinking water",
+    "expected_standard": "IS 14543:2024"
+  },
+  {
+    "query": "I want to start a packaged water business",
+    "expected_standard": "IS 14543:2024"
+  },
+  {
+    "query": "I manufacture helmets for bike riders",
+    "expected_standard": "IS 4151:2015"
+  },
+  {
+    "query": "protective helmet for motorcycle",
+    "expected_standard": "IS 4151:2015"
+  },
+  {
+    "query": "I manufacture TMT bars for construction",
+    "expected_standard": "IS 1786:2008"
+  },
+  {
+    "query": "steel reinforcement bars for concrete",
+    "expected_standard": "IS 1786:2008"
+  },
+  {
+    "query": "I manufacture PVC electrical wires for house wiring",
+    "expected_standard": "IS 694:2010"
+  },
+  {
+    "query": "PVC insulated electrical cable",
+    "expected_standard": "IS 694:2010"
+  },
+  {
+    "query": "I manufacture gaming laptops",
+    "expected_standard": "IS/IEC 62368: Part 1: 2023"
+  },
+  {
+    "query": "I manufacture smart televisions",
+    "expected_standard": "IS/IEC 62368: Part 1: 2023"
+  },
+  {
+    "query": "I manufacture microwave ovens",
+    "expected_standard": "IS 302-2-25"
+  },
+  {
+    "query": "I sell smartphone covers",
+    "expected_standard": null
+  }
+]

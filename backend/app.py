@@ -34,7 +34,10 @@ def chat():
         data = request.get_json() or {}
 
         message = data.get("message", "").strip()
-        conversation_history = data.get("conversationHistory", [])
+        conversation_history = data.get(
+            "conversationHistory",
+            []
+        )
 
         if not message:
             return jsonify({
@@ -48,19 +51,41 @@ def chat():
         try:
             ai_result = get_ai_response(message)
 
-            if ai_result and ai_result.get("status") == "success":
-                return jsonify({
-                    "status": "success",
-                    "reply": ai_result.get("reply", ""),
-                    "cards": ai_result.get("cards", []),
-                    "sources": ai_result.get("sources", [])
-                })
+            if ai_result:
+
+                # Valid BIS match
+                if ai_result.get("status") == "success":
+                    return jsonify({
+                        "status": "success",
+                        "reply": ai_result.get("reply", ""),
+                        "cards": ai_result.get("cards", []),
+                        "sources": ai_result.get("sources", [])
+                    })
+
+                # AI/ML searched successfully but found
+                # no sufficiently reliable BIS match.
+                # Do NOT send this to the old rule-based fallback.
+                if ai_result.get("status") == "no_match":
+                    return jsonify({
+                        "status": "success",
+                        "reply": ai_result.get(
+                            "reply",
+                            "I could not find a sufficiently reliable "
+                            "BIS standard for this product in the "
+                            "current knowledge base."
+                        ),
+                        "cards": [],
+                        "sources": []
+                    })
 
         except Exception as ai_error:
             print("AI/ML error:", ai_error)
-            print("Falling back to backend response service.")
+            print(
+                "Falling back to backend response service."
+            )
 
-        # Existing backend fallback
+        # Existing backend fallback is used only if
+        # the AI/ML pipeline itself fails.
         product = detect_product(message)
 
         result = generate_response(
@@ -81,7 +106,10 @@ def chat():
 
         return jsonify({
             "status": "error",
-            "reply": "Sorry, something went wrong while processing your request.",
+            "reply": (
+                "Sorry, something went wrong while "
+                "processing your request."
+            ),
             "cards": [],
             "sources": []
         }), 500
